@@ -1,6 +1,7 @@
 // Essay
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 // Create your Essay struct here
@@ -8,12 +9,17 @@ using namespace std;
 
 int main()
 {
-    // Have the user enter values
+    string title;
+    getline(cin, title); //getline allows the user to enter more than one word
+
+    //Have the user enter the other values
+
 
     
     // Create an Essay object and set the attributes
 
 
+  
     //Calculate the number of days needed to complete the essay
 
 
@@ -23,4 +29,3 @@ int main()
 
     system("pause");
 }
-
