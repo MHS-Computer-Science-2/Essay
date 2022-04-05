@@ -9,24 +9,23 @@ using namespace std;
 
 int main()
 {
-    // Enter Essay Title
+    // Create an Essay object called myEssay;
+   
+    
+    // Enter Essay Values
+    // I'll do the title, because titles usually have multiple words and we haven't done multi-word inputs. 
+    // cin >> can only do one word at a time.
     string title;
     cout << "Enter the essay title: " << endl;
-    getline(cin, title); //getline allows the user to enter more than one word
-
-    // Have the user enter the other values
-
-
+    getline(cin, myEssay.title); //getline allows the user to enter more than one word
     
-    // Create an Essay object and set the attributes
+   // Now you do the other inputs
+    
 
 
-  
-    // Calculate the number of days needed to complete the essay
 
 
-    // Write if statements to determine if the essay will be completed 
-    // EARLY, ON TIME, or LATE
+    // Use math and if stements to determine if the essay will be completed EARLY, ON TIME, or LATE
 
 
     system("pause");
