@@ -15,7 +15,6 @@ int main()
     // Enter Essay Values
     // I'll do the title, because titles usually have multiple words and we haven't done multi-word inputs. 
     // cin >> can only do one word at a time.
-    string title;
     cout << "Enter the essay title: " << endl;
     getline(cin, myEssay.title); //getline allows the user to enter more than one word
     
