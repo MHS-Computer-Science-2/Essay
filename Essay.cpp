@@ -9,10 +9,12 @@ using namespace std;
 
 int main()
 {
+    // Enter Essay Title
     string title;
+    cout << "Enter the essay title: " << endl;
     getline(cin, title); //getline allows the user to enter more than one word
 
-    //Have the user enter the other values
+    // Have the user enter the other values
 
 
     
@@ -20,7 +22,7 @@ int main()
 
 
   
-    //Calculate the number of days needed to complete the essay
+    // Calculate the number of days needed to complete the essay
 
 
     // Write if statements to determine if the essay will be completed 
